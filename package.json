@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-build",
+  "version": "1.0.0",
+  "description": "This repo is a node script which will fire when a HTTP request is fired causing gatsby to be built",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotrpmorris/node-gatsby-build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotrpmorris/node-gatsby-build/issues"
+  },
+  "homepage": "https://github.com/elliotrpmorris/node-gatsby-build#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-webhooks": "^1.4.0",
+    "shelljs": "^0.8.3"
+  }
+}
